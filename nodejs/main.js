@@ -4,7 +4,7 @@ const {parseString, Builder} = require('xml2js');
 const {exec} = require('child_process');
 
 const userProfilePath = path.join(process.env.APPDATA, 'JetBrains');
-const appNames = ['IntelliJ', 'PyCharm', 'Rider', 'WebStorm', 'PhpStorm'];
+const appNames = ['IntelliJ', 'PyCharm', 'Rider', 'WebStorm', 'PhpStorm', 'GoLand'];
 
 const getAppDirectories = source =>
     readdirSync(source, {withFileTypes: true})

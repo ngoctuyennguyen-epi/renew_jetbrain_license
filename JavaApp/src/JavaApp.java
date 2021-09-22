@@ -24,7 +24,7 @@ import java.util.List;
 public class JavaApp {
     public static void main(String[] args) throws ParserConfigurationException, IOException, SAXException, XPathExpressionException {
         Path userProfilePath = Paths.get(String.format("%s\\%s", System.getenv("APPDATA"), "JetBrains"));
-        List<String> appNames = Arrays.asList("IntelliJ", "PyCharm", "Rider", "WebStorm", "PhpStorm");
+        List<String> appNames = Arrays.asList("IntelliJ", "PyCharm", "Rider", "WebStorm", "PhpStorm", "GoLand");
 
         String[] appDirectories = userProfilePath
                 .toFile()

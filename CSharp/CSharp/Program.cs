@@ -11,7 +11,7 @@ namespace CSharp
         static void Main(string[] args)
         {
             var UserProfilePath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData), "JetBrains");
-            var AppNames = new List<string> { "IntelliJ", "PyCharm", "Rider", "WebStorm", "PhpStorm" };
+            var AppNames = new List<string> { "IntelliJ", "PyCharm", "Rider", "WebStorm", "PhpStorm", "GoLand" };
 
             var UserProfileDirectory = new DirectoryInfo(UserProfilePath);
 
